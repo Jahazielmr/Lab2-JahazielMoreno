@@ -119,17 +119,17 @@ int main(){
 				// alturas primer triangulo
 				float Triangulo1H1, Triangulo1H2, Triangulo1H3, Triangulo2H1, Triangulo2H2, Triangulo2H3;
 				
-		Triangulo1H1= (2/distanciaAB) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));
-		Triangulo1H2= (2/distanciaDB) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));
-		Triangulo1H3= (2/distanciaDA) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));	
+				Triangulo1H1= (2/distanciaAB) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));
+				Triangulo1H2= (2/distanciaDB) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));
+				Triangulo1H3= (2/distanciaDA) * sqrt(Striangulo*(Striangulo-distanciaAB)*(Striangulo-distanciaDB)*(Striangulo-distanciaDA));	
 				
 				cout<<"Las alturas del triangulo 1 miden:"<<endl;
 				cout<<"Altura 1: "<<Triangulo1H1<<endl;
 				cout<<"Altura 2: "<<Triangulo1H2<<endl;
 				cout<<"Altura 3: "<<Triangulo1H3<<endl;
 
-	     Triangulo2H1= (2/distanciaDB) * sqrt(Striangulo2*(Striangulo2-distanciaDB)*(Striangulo2-distanciaBC)*(Striangulo2-distanciaCD));
-	     Triangulo2H2= (2/distanciaBC) * sqrt(Striangulo2*(Striangulo2-distanciaBC)*(Striangulo2-distanciaDB)*(Striangulo2-distanciaCD));                Triangulo2H3= (2/distanciaCD) * sqrt(Striangulo2*(Striangulo2-distanciaCD)*(Striangulo2-distanciaDB)*(Striangulo2-distanciaBC)); 				
+	     			Triangulo2H1= (2/distanciaDB) * sqrt(Striangulo2*(Striangulo2-distanciaDB)*(Striangulo2-distanciaBC)*(Striangulo2-distanciaCD));
+	     			Triangulo2H2= (2/distanciaBC) * sqrt(Striangulo2*(Striangulo2-distanciaBC)*(Striangulo2-distanciaDB)*(Striangulo2-distanciaCD));                Triangulo2H3= (2/distanciaCD) * sqrt(Striangulo2*(Striangulo2-distanciaCD)*(Striangulo2-distanciaDB)*(Striangulo2-distanciaBC)); 				
 
 				cout<<"Las alturas del triangulo 2 miden:"<<endl;											       cout<<"Altura 1: "<<Triangulo2H1<<endl;                               
 			        cout<<"Altura 2: "<<Triangulo2H2<<endl;                                
